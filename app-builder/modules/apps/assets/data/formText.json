@@ -1,0 +1,10 @@
+[
+  
+  {
+    "fieldName": "Title",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.sectionTitle",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }
+]

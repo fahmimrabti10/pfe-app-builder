@@ -1,0 +1,1 @@
+const n=a=>({events:["clearValidate","updateData","textEditorFileUpload"],useClearValidate:e=>{a("clearValidate",e)},useFormDataChange:(e,t,o)=>{a("updateData",e,t,o)},useTextEditorFileUpload:e=>{a("textEditorFileUpload",e)}});export{n as f};

@@ -1,0 +1,1 @@
+import{d as n,o as c,c as _,V as a,_ as s}from"./entry.37c85000.js";const r=n({__name:"BackButton",props:{url:{type:String,required:!0}},setup(e){const t=e,o=()=>a(t.url);return(p,u)=>(c(),_("a",{id:"btn-back",class:"btn-back dark-color font-sf-bold",onClick:o}))}});const d=s(r,[["__scopeId","data-v-628f14e2"]]);export{d as _};

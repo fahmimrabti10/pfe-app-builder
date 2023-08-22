@@ -1,0 +1,136 @@
+.ant-table-tbody > tr > td .ant-table-thead > tr > th {
+  line-height: normal;
+}
+
+.icon-size {
+  height: 35px;
+  padding: 4px;
+}
+
+td.action {
+  text-align: right;
+  white-space: nowrap;
+}
+
+th.action {
+  font-family: "SF-Medium", sans-serif;
+}
+
+th.title-column {
+  font-family: "SF-Medium", sans-serif;
+}
+
+tr th {
+  font-family: "SF-Medium", sans-serif;
+  white-space: nowrap;
+}
+
+tr td {
+  color: #383333;
+  font-family: "SF-Bold", sans-serif;
+}
+
+td.title-column {
+  font-family: "SF-Bold", sans-serif;
+}
+
+.ant-checkbox-inner {
+  position: relative;
+  z-index: 3;
+}
+
+.ant-table-thead > tr:first-child > th:first-child {
+  border-top-left-radius: 0;
+}
+
+.language-table .ant-pagination {
+  display: none;
+}
+
+.table-pagination-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected td {
+  background-color: #f2f6f7;
+}
+
+.color-primary {
+  color: #1890ff;
+}
+
+.ant-table-title {
+  position: relative;
+  top: 1px;
+  padding: 0;
+  border-radius: 0;
+}
+
+.green-circle,
+.red-circle {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.red-circle {
+  background-color: #cd3c15;
+}
+
+.green-circle {
+  background-color: #50be87;
+}
+
+.display-tags {
+  min-width: 140px;
+}
+
+.icon-status {
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  width: 10px;
+  min-width: 10px;
+  height: 10px;
+  min-height: 10px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.bg-unpublish {
+  background-color: #1890ff;
+}
+
+.bg-publish {
+  background-color: #5bbe47;
+}
+
+.bg-draft {
+  background-color: #ffce00;
+}
+
+.categoryTable .ant-table-layout-fixed table {
+  table-layout: auto;
+}
+
+.categoryTable .Nowrap {
+  padding-right: 2rem;
+  white-space: nowrap;
+}
+
+.divider {
+  width: 1px;
+  padding-right: 1px;
+  margin: 0 5px;
+  background-color: #dfeaed;
+}/*# sourceMappingURL=table.css.map */

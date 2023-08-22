@@ -1,0 +1,1 @@
+import{_ as t,f as a,w as _,x as n,o as s,n as d}from"./entry.37c85000.js";const c={};function l(e,u){const o=n("a-layout");return s(),a(o,{id:"components-layout-demo-custom-trigger",class:"main-wrapper"},{default:_(()=>[d(e.$slots,"default",{},void 0,!0)]),_:3})}const i=t(c,[["render",l],["__scopeId","data-v-6d0051ca"]]);export{i as default};

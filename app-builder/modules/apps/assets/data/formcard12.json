@@ -1,0 +1,47 @@
+
+[
+  {
+    "fieldName": "Image",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.Image",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "sectionTitle",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.sectionTitle",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "Title",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.Title",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "number_of_tickets_available",
+    "fieldType": "NUMBER",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.number_of_tickets_available",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+
+  {
+    "fieldName": "key",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.key",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "value",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.value",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }
+]

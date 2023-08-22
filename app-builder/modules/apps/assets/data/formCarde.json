@@ -1,0 +1,31 @@
+[
+  {
+    "fieldName": "coverImageUrl",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.coverImageUrl",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }, 
+  {
+    "fieldName": "title",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.title",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "value",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.value",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "key",
+    "fieldType": "DATEPICKER",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.key",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }
+]

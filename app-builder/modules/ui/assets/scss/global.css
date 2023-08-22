@@ -1,0 +1,145 @@
+@media only screen and (max-width: 767px) {
+  html body {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .title-btn-position .btn-add {
+    position: fixed;
+    z-index: 5;
+    bottom: 91px;
+    left: 50%;
+    width: 305px;
+    transform: translateX(-50%);
+  }
+}
+.page-title {
+  margin: 1rem 0;
+  font-size: 30px;
+}
+
+.title-btn-position {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0 27px;
+}
+.title-btn-position .ant-row {
+  width: 100%;
+}
+
+.content {
+  background-color: #fff;
+}
+.content .header-wrapper {
+  padding: 12px 16px;
+}
+.content .header-wrapper .title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.form-wrapper {
+  padding: 20px;
+}
+
+.search-input {
+  display: flex;
+  margin: 15px;
+}
+
+.bg-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfeaed;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.bg-title .title {
+  color: #786d6d;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    z-index: 10;
+  }
+}
+.sidebar .icon-position-colapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .spacing-left {
+  margin-left: 8px;
+}
+@media only screen and (min-width: 768px) {
+  .sidebar .spacing-ln {
+    margin-left: -16px;
+  }
+  .sidebar .spacing-y {
+    text-align: center;
+  }
+  .sidebar .close {
+    margin-left: -24px;
+  }
+}
+.sidebar .pointer-default {
+  pointer-events: none;
+}
+.sidebar .opacity-50 {
+  opacity: 0.5;
+}
+.sidebar .align-icon-text {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.sidebar .nowrap {
+  white-space: nowrap;
+}
+.sidebar .ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 767px) {
+  .sidebar .hide {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-hide {
+    display: none;
+  }
+}
+.description-page {
+  margin-bottom: 30px;
+}
+
+.picto-img {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  border: solid #dfeaed 1px;
+  border-radius: 2px;
+}
+
+.filter-pagination {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.select-item {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}/*# sourceMappingURL=global.css.map */

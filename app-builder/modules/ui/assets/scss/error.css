@@ -1,0 +1,37 @@
+.errorPage {
+  width: 100%;
+  height: 100vh;
+  background-position: 33% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.errorPage .errorMain {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.errorPage .errorMain .errorContent {
+  padding: 0 20px;
+  text-align: center;
+}
+.errorPage .forDesktop {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .errorPage .forDesktop {
+    display: block;
+  }
+}
+.errorPage .forMobile {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .errorPage .forMobile {
+    display: none;
+  }
+}/*# sourceMappingURL=error.css.map */

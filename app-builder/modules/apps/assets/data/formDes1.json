@@ -1,0 +1,25 @@
+[
+  
+  {
+    "fieldName": "sectionTitle",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.sectionTitle",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+
+  {
+    "fieldName": "text",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.text",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+   {
+    "fieldName": "truncatedText",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.truncatedText",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "fieldName": "sectionImage",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.sectionImage",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "titleImage",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.titleImage",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "element2SectionTitle",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.PRODUCTS.sectionTitle",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "element2Title",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.PRODUCTS.title",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "element2SubTitle",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.PRODUCTS.subTitle",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "imageSectionTitle",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.PRODUCTS.sectionTitle",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }
+]

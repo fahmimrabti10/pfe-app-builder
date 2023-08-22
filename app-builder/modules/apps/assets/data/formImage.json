@@ -1,0 +1,12 @@
+[
+  {
+    "fieldName": "Image",
+    "fieldType": "MULTIUPLOAD",
+    "label": "$i18n.APPS.Image",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+    
+  }
+
+]

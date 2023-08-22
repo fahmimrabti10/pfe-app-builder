@@ -1,0 +1,77 @@
+[
+     {
+    "fieldName": "sectionTitle",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.sectionTitle",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "thumbnailUrl1",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.thumbnailUrl1",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+    {
+    "fieldName": "Title1",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.Title1",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "SubTitle1",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.SubTitle1",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  
+  {
+    "fieldName": "thumbnailUrl2",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.thumbnailUrl2",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+    {
+    "fieldName": "Title2",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.Title2",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "SubTitle2",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.SubTitle2",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+   {
+    "fieldName": "thumbnailUrl3",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.thumbnailUrl3",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "Title3",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.Title3",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "SubTitle3",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.SubTitle3",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }
+  
+]

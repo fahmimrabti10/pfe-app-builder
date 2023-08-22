@@ -1,0 +1,1 @@
+import{_ as t,c as s,o,a as e}from"./entry.37c85000.js";const c={},n=e("div",{class:"page-title title-module"}," Hello ",-1),a=e("div",{class:"description-page"}," description ",-1),i=[n,a];function _(d,r){return o(),s("div",null,i)}const p=t(c,[["render",_]]);export{p as default};

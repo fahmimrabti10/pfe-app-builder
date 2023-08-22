@@ -1,0 +1,48 @@
+
+[
+  {
+    "fieldName": "Image",
+    "fieldType": "UPLOAD",
+    "label": "$i18n.APPS.Image",
+    "prefix": "/APPS",
+    "accept": ".png, .jpg, .jpeg",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "Title",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.Title",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "rate",
+    "fieldType": "NUMBER",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.rate",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  
+  {
+    "fieldName": "date",
+    "fieldType": "DATEPICKER",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.date",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+
+  {
+    "fieldName": "text",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.text",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  },
+  {
+    "fieldName": "truncatedText",
+    "fieldType": "TEXT",
+    "prefix": "/APPS",
+    "label": "$i18n.APPS.truncatedText",
+    "rule": [{ "required": false, "message": "$i18n.REQUIRED" }]
+  }
+]
